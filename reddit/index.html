@@ -7,6 +7,14 @@
 </head>
 <body>
   <header>
+    <aside>
+      My subreddits:
+      <a href="#">popular</a>
+      <a href="#">random</a>
+      <a href="#">users</a>
+      <a href="#">pics</a>
+      <a href="#">funny</a>
+    </aside>
     <div class="logo">
       <img src="image.jpeg" alt="Reddit" height="50" width="150">
       Reddit
@@ -38,11 +46,14 @@
 
   <main>
     <article class="post">
-      <div class="post-order-number"></div>
+      <div class="post-order">1</div>
+      <form action="/upvote"><input type="submit" value=&uarr;></form>
+      <div class="vote-count">10500</div>
+      <form action="/downvote"><input type="submit" value=&darr;></form>
       <h1>My colorization of Corine Rottschäfer, Miss World 1959</h1>
-      <div class="post-content">
+      <figure class="post-content">
         <img src="image.jpeg" alt="logo" height="100" width="100">
-      </div>
+      </figure>
     </article>
   </main>
 
